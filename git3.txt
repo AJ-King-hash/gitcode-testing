@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////
+///// work flow when i'm making my own project /////////
+////////////////////////////////////////////////////////
+--to initialize the project to a git repository:
+---> git init
+-- to see what is your status repository is in:
+git status
+/*
+U or ??: untracked file 
+A: added file "a commited file 'means we can added '"
+M: modified file
+*/
+--to commited a file in the repository :
+--> git add index.html
+--> to add it all: git add .
+
+//to get a shorter version of status: git status -s
+
+
+//////the .gitignore is to ignore files the i don't want to add in the repository
+if we put in this file *.txt : means ignore all the files with .txt or "notes.txt"
+
+// so now if we type git add. it will Add all the files including the .gitignore execluding the notes.txt
+
+//git restore is to retreive the previous version of the modified files:
+git restore index.html or git restore .
+
+
+// to include a message with a commit we use -m:
+---> git commit -m  "first_commit"
+//or if we forget we can make it manually
+
+
+
+---> commit:is to save whatever you make in a git repository with a short message using -m
+
+--> a shortcut to add and commit:
+----> git commit -a -m "Added exclamation mark"
+
+
+--> if want to make a commit individually to each file:
+git commit -a 
