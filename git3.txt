@@ -40,3 +40,11 @@ git restore index.html or git restore .
 
 --> if want to make a commit individually to each file:
 git commit -a 
+
+
+
+///  how to send it to the github:
+---> to link the repository of the github to our repository we use:
+git remote add origin https://github.com/AJ-King-hash/gitcode-testing.git
+git branch -M main
+git push -u origin main
